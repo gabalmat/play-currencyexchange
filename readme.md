@@ -11,10 +11,12 @@ UserActor and MarketActor . For our prototype, users can trade in only one curre
 Ingredients:
 - JDK 8 or higher
 - sbt (ver 1.2.1 or higher)
-- Play (ver 2.6.18 or higher) [Don’t need to download manually]
+- Play (ver 2.6.18 or higher)
 - Akka (ver 2.5.4 or higher)
 - sqlite-jdbc (ver 3.23.1 or higher)
 - May need to add the following to build.sbt:
 - libraryDependencies += "org.xerial" % "sqlite-jdbc" % "3.8.11.2"
 - Jackson JSON library
+
+For more details including RESTful API specs, see [Assignment Instructions](doc/Project2_assignment.pdf)
 
