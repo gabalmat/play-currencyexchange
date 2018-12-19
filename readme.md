@@ -2,11 +2,11 @@
 
 Project 2
 
-Play framework server RESTful application integrated with Akka to implement actor model.
+Play framework server application integrated with Akka to implement actor model.
 
 The system has two roles:
-UserActor and MarketActor . For our prototype, users can trade in only one currency, Bitcoin
-(BTC).
+UserActor and MarketActor. For this prototype, users can trade in only one currency, Bitcoin
+(BTC). Actors communicate with "outside world" via RESTful API. 
 
 Ingredients:
 - JDK 8 or higher
